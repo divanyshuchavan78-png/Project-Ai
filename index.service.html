@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Service Cloud - Student Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+        .nav {
+            background: #032d60;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .main-content {
+            padding: 50px;
+            text-align: center;
+        }
+        .ticket-card {
+            background: white;
+            border-left: 5px solid #2e844a;
+            padding: 20px;
+            margin: 15px auto;
+            width: 80%;
+            text-align: left;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+        }
+        .status {
+            color: #2e844a;
+            font-weight: bold;
+        }
+        .btn {
+            background: #2e844a;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav">
+        <span><b>Service Portal</b></span>
+        <a href="index.html" style="color: white; text-decoration: none;">Back Home</a>
+    </div>
+
+    <div class="main-content">
+        <h1><i class="ri-customer-service-2-line"></i> Customer Support Dashboard</h1>
+        <p>Helping customers solve problems faster using Salesforce Service tools.</p>
+
+        <div class="ticket-card">
+            <h3>Ticket #1042: Login Issue</h3>
+            <p>Customer cannot access the dashboard after password reset.</p>
+            <span class="status">Status: Open (High Priority)</span>
+        </div>
+
+        <div class="ticket-card">
+            <h3>Ticket #1043: Payment Failed</h3>
+            <p>The checkout page timed out during processing.</p>
+            <span class="status">Status: Resolved</span>
+        </div>
+
+        <br>
+        <a href="#" class="btn">Create New Ticket</a>
+    </div>
+
+</body>
+</html>

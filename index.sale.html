@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sales Cloud - Student Project</title>
+    <!-- We are using Remix Icons for professional look -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+    <style>
+        /* This is my internal CSS to keep everything in one HTML file */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f8ff;
+            color: #16325c;
+        }
+        .header {
+            background-color: #00a1e0;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #00a1e0;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .feature-box {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h2 { color: #032d60; }
+        .icon { font-size: 30px; color: #00a1e0; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: white;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th { background-color: #032d60; color: white; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Welcome to Sales Cloud</h1>
+        <p>Managed by Dhananjay Chavhan (Student)</p>
+    </div>
+
+    <div class="container">
+        <!-- Back link to main portal -->
+        <a href="index.html" class="back-btn">← Back to Main Portal</a>
+
+        <div class="feature-box">
+            <i class="ri-funds-box-line icon"></i>
+            <h2>Sales Pipeline Tracking</h2>
+            <p>This page shows how we track leads and close deals. As a student, I designed this to show a simple list of potential customers.</p>
+        </div>
+
+        <h3>Active Leads List</h3>
+        <table>
+            <tr>
+                <th>Customer Name</th>
+                <th>Company</th>
+                <th>Value</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>John Smith</td>
+                <td>Tech Solutions</td>
+                <td>$5,000</td>
+                <td>Negotiation</td>
+            </tr>
+            <tr>
+                <td>Sarah Parker</td>
+                <td>Green Energy Co</td>
+                <td>$12,000</td>
+                <td>Closed Won</td>
+            </tr>
+            <tr>
+                <td>Mike Ross</td>
+                <td>Pearson Hardman</td>
+                <td>$3,500</td>
+                <td>Initial Contact</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
